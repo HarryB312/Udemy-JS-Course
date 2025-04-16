@@ -42,19 +42,28 @@
                                 //THIS//
             //Used to access other peroperties on the same object.//
             //The value of THIS depends on the incovatoin conctext of the functions its used in//
-const person = {
-    first: 'Harrison',
-    last: 'Boswell',
-    fullName(){
-        return `${this.first} ${this.last}`
-    }
-}
+// const person = {
+//     first: 'Harrison',
+//     last: 'Boswell',
+//     fullName(){
+//         return `${this.first} ${this.last}`
+//     }
+// }
 
-const cat = {
-    name: 'Blue Steel',
-    color: 'grey',
-    breed: 'Mut',
-    meow(){
-        console.log(`${this.name} says MEOW!!!}`)
-    }
-}
+// const cat = {
+//     name: 'Blue Steel',
+//     color: 'grey',
+//     breed: 'Mut',
+//     meow(){
+//         console.log(`${this.name} says MEOW!!!}`)
+//     }
+// }
+
+// const hen = {
+//     name: 'Helen',
+//     eggCount: 0,
+//     layAnEgg(){
+//         this.eggCount++;
+//         return 'EGG';
+//     }
+// }
