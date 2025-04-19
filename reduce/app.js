@@ -80,3 +80,20 @@
 //     return acc + curr;
 // }, 100);
  
+//Multiply all numbers in an array
+const nums = [2, 3, 4];
+
+const numTimes = nums.reduce((accNum, currNum) => {
+    return currNum * accNum;
+})
+
+//Find the sum of all even numbers
+const numbers = [1, 2, 3, 4, 5, 6];
+
+const sumOfEven = numbers.reduce((acc, curr) => {
+    if (curr % 2 === 0){
+        return curr + acc;
+    }return acc;
+}, 0);
+
+
