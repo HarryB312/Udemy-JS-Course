@@ -114,36 +114,33 @@
                                     //Filter//
 //Creates a new array with all elelments that pass the test implemented by the function//
 
-const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
-const lessTen = numbers.filter((n)=>{
-    return n < 10
-})
+// const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+// const lessTen = numbers.filter((n)=>{
+//     return n < 10
+// })
 
-const movies = [
-            {
-                title: 'Amadeus',
-                score: 99
-            },
-            {
-                title: 'Stand By Me',
-                score: 75
-            },
-            {
-                title: 'Parasite',
-                score: 80
-            },
-            {
-                title: 'Alien',
-                score: 60
-            }
-        ]
+// const movies = [
+//             {
+//                 title: 'Amadeus',
+//                 score: 99
+//             },
+//             {
+//                 title: 'Stand By Me',
+//                 score: 75
+//             },
+//             {
+//                 title: 'Parasite',
+//                 score: 80
+//             },
+//             {
+//                 title: 'Alien',
+//                 score: 60
+//             }
+//         ]
 
-const badMovies = movies.filter(m => m.score < 79)
-const movieTitles = movies.filter(m => m.score < 79).map(m => m.title)
+// const badMovies = movies.filter(m => m.score < 79)
+// const movieTitles = movies.filter(m => m.score < 79).map(m => m.title)
 
 
                                     //Some & Every//
-                                    //Reduce//
-
-//executes a reducer function on each element of the array, resulting in a single value. 
-
+   
