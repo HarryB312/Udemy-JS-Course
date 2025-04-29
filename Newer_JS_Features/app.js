@@ -1,9 +1,9 @@
 //Default Params//
 //set params if argument is not defined. 
 
-const rollDie = (numSides = 6) => {
-    return Math.floor(Math.random() * numSides) + 1
-}
+// const rollDie = (numSides = 6) => {
+//     return Math.floor(Math.random() * numSides) + 1
+// }
 
 //...SPREAD//
 //unpack elements from arrays, objects, or iterables
@@ -27,12 +27,12 @@ const rollDie = (numSides = 6) => {
 //Copies properties from one object into another object literal//
 
 
-const feline = { legs: 4, family: 'Felidae' };
-const canine = { isFurry: true, family: 'Caninae' }; 
+// const feline = { legs: 4, family: 'Felidae' };
+// const canine = { isFurry: true, family: 'Caninae' }; 
 
-const catDog = { ...feline, ...canine}
+// const catDog = { ...feline, ...canine}
 
-console.log(catDog)
+// console.log(catDog)
 
 
 //Rest Params//
@@ -49,8 +49,14 @@ console.log(catDog)
 //     console.log(`THANKS TO EVERYONE ELSE: ${everyoneElse}`);
 // }
 
-raceResults('Harrison','Brittany','Penelope','Winter','Chetto')
+// raceResults('Harrison','Brittany','Penelope','Winter','Chetto')
 
 //DESTRUCTURING ARRAYS//
+//Clean syntax
+
+const scores = [929456, 456801, 358978,585284, 468988, 258596]
+
+const [gold, silver, bronze, ...everyoneElse] = scores
 
 
+//DESTRUCTURING OBJECTS//
