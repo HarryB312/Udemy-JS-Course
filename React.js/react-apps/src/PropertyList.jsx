@@ -1,4 +1,10 @@
 import Property from "./Property";
 export default function PropertyList({ properties }) {
-    <Property />
+   return(
+    <div>
+        {properties.map((p) => (
+            <Property key={p.id}{...p}/>
+        ))}
+    </div>
+   )
 }
