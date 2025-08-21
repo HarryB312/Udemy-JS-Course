@@ -4,7 +4,13 @@ import Die from './Die';
 import Slots from './Slots';
 import ShoppingList from './ShoppingList';
 import PropertyList from './PropertyList';
+import Clicker from './Clicker';
+import Form from './Form';
+import Counter from './Counter';
 import './App.css'
+import Toggler from './Toggler';
+import ColorBox from './ColorBox';
+
 
 const data = [
   {id: 1, item: 'Eggs', quantity: 12, completed: false},
@@ -26,9 +32,14 @@ const properties = [
 function App() {
   return (
     <div>
-      <PropertyList properties={properties}
+      <ColorBox colors={['red', 'blue', 'orange', 'purple', 'green', 'olive']}/>
+      {/* <Toggler/> */}
+      {/* <Counter />
+      <Clicker message={'Hello from alert!'} buttonText={'Click Here'}/> */}
+      {/* <Form /> */}
+      {/* <PropertyList properties={properties}
         />
-      <ShoppingList items={data}/>
+      <ShoppingList items={data}/> */}
       {/* <RandomPokemon />
       <Greeter person="Harrison" from='Brittany'/> 
       <Die numSides={20}/>
