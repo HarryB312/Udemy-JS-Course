@@ -12,6 +12,7 @@ import Toggler from './Toggler';
 import ColorBox from './ColorBox';
 
 
+
 const data = [
   {id: 1, item: 'Eggs', quantity: 12, completed: false},
   {id: 2, item: 'Chichen', quantity: 6, completed: true},
